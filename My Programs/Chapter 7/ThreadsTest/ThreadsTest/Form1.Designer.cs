@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThreadsTestForm));
 			this.label1 = new System.Windows.Forms.Label();
 			this.numThreadCount = new System.Windows.Forms.NumericUpDown();
 			this.txtCounter1 = new System.Windows.Forms.TextBox();
@@ -189,6 +190,7 @@
 			this.Controls.Add(this.grpCounters);
 			this.Controls.Add(this.numThreadCount);
 			this.Controls.Add(this.label1);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MinimumSize = new System.Drawing.Size(440, 320);
 			this.Name = "ThreadsTestForm";
 			this.Text = "Threads Test";
